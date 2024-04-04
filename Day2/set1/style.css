@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* width=border(l&r)+content+padding ; */
+}
+/* .parent p{
+    background-color: aqua;
+    margin: ;
+} */
+.parent{
+    p{
+        background-color: brown;
+    }
+}
+.child1{
+    background-color: aqua;
+    width: 200px;
+
+    margin: 0 0 0 auto;
+}
+.imgg1{
+    text-align: center;
+}
+img{
+    text-align: center;
+}

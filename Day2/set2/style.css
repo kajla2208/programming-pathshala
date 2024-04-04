@@ -1,0 +1,101 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+/* *{
+    padding: 0;
+    margin: 0;
+    
+    /* width=border(l&r)+content+padding ;
+}  */
+/* .parent{
+    font-size: 32px;
+}
+.child{
+    font-size: 10px;
+    background-color: aqua;
+    width: 20em; (/* em is a relative length unit)
+}
+.btn{
+    display:block;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    margin: 10px auto;
+    font-size: 16px;
+    width: 120px;
+}
+.btn2-small{
+    display:block;
+    padding: 0.5em;
+    border-radius: 8px;
+    border: none;
+    margin: 10px auto;
+    font-size: 16px;
+    width: 6em;
+}
+.btn2-big{
+   font-size: 32px;
+} */
+/* .parent{
+    height: 100px;
+    background-color: brown;
+}
+.child{
+    width: 50%;
+    min-height: 200px;
+    padding: 16px 32px;
+    background-color: green;
+    max-height: 300px;
+} */
+body{
+    height: 100vh;
+    width: 100vh;
+    padding: 10px 32px;
+}
+/* .parent{
+    ol{
+        background-color: blue;
+    }
+    ul:first-child{
+        background-color: brown;
+    }
+} */
+    /* ul:last-child{
+        background-color: green;
+        li:nth-child(3){
+            background-color: blueviolet;
+            width: fit-content;
+        }
+        span:nth-child(2){
+            background-color: red;
+            width: fit-content;
+        }
+        
+    } */
+    /* ul:last-of-type{
+        background-color: green;
+        li:nth-of-type(3){
+            background-color: blueviolet;
+            width: fit-content;
+        }
+        span:nth-of-type(2){
+            background-color: red;
+            width: fit-content;
+        }
+        
+    }
+    
+}
+ul{
+    background-color: aqua;
+} */
+.parent ul{
+    background-color: red;
+}
+.parent >ul{
+    background-color: aqua;
+}
+.parent+ul{
+    background-color: brown;
+}
