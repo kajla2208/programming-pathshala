@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            color: aliceblue;
+            text-align: center;
+            font-size: 50px;
+            background-color:  #3c3b3f;
+        }
+        footer{
+            color: aliceblue;
+            text-align: center;
+            font-size: 50px;
+            background-color:  #19cf65;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .news-card {
+            background-color: aqua;
+            max-width: 400px;
+            padding: 24px;
+            margin: 40px auto;
+            border-radius: 20px;
+            width: max-content;
+            min-height: 200px;
+            border: 2px solid black;
+        }
+
+        img {
+
+            height: 200px;
+            width: 350px;
+        }
+
+        #root {
+            gap: 30px;
+            display: grid;
+            
+            /* grid-template-columns: repeat(auto-fit, 350px); */
+            grid-template-columns: 1fr 1fr 1fr;
+            
+        }
+        @media (max-width: 600px) {
+            .news-card {
+                width: 98%;
+                font-size: 12px;
+            }
+            img {
+                height: 100px;
+                width: 98%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>Latest News India!</header>
+    <main>
+        <div id="root">
+        </div>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
